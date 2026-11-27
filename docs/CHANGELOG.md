@@ -1,6 +1,12 @@
-# Registro de cambios (CHANGELOG)
+﻿# Registro de cambios (CHANGELOG)
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y versionado semántico (SemVer).
+
+## [1.2.0] - 2026-11-27 - Migracion a repositorio individual
+
+### Cambiado
+- El taller ahora vive en su propio repositorio: https://github.com/alitomaier2010-netizen/repaso-general
+- Espejo automatico a GitLab con GitHub Actions: https://gitlab.com/Alitopro/repaso-general
 
 ## [1.1.0] - 2026-11-18 — Respaldo Dual-Remote configurado
 
