@@ -20,4 +20,4 @@ jobs:
       - name: Registrar host de GitLab
         run: ssh-keyscan -H gitlab.com >> ~/.ssh/known_hosts
       - name: Sincronizar con GitLab
-      run: git push --force "git@gitlab.com:Alitopro/${{ github.event.repository.name }}.git" "refs/heads/*:refs/heads/*" "refs/tags/*:refs/tags/*"
+        run: git push --force "git@gitlab.com:Alitopro/${{ github.event.repository.name }}.git" "refs/heads/*:refs/heads/*" "refs/tags/*:refs/tags/*"
